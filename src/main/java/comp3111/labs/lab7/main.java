@@ -15,7 +15,7 @@ public class main {
 	 */
 	/*
 		a) The bug is in line 23-24
-		b) In the forEach loop, a will be null (instead of a pointer pointing to a location of the array, so line 24 assigns an Animal object to null, the animals array is not affected. After the loop, all the elements in the animals array is still null
+		b) In the forEach loop, a will be null (instead of a pointer pointing to a location of the array), so line 24 assigns an Animal object to null, the animals array is not affected. After the loop, all the elements in the animals array is still null
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
